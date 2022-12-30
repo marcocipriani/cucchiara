@@ -2,11 +2,20 @@
 	"name": "cucchiara",
 	"version": "0.1.0",
 	"private": true,
+	"author": "Marco Cipriani",
+	"description": "Gaming scoreboard, styled by Creative Tim",
 	"dependencies": {
+		"@emotion/react": "^11.10.5",
+		"@emotion/styled": "^11.10.5",
+		"@fontsource/roboto": "^4.5.8",
+		"@mui/icons-material": "^5.11.0",
+		"@mui/material": "^5.11.2",
+		"firebase": "^9.15.0",
+		"normalize.css": "^8.0.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-router-dom": "^6.6.1",
-		"react-scripts": "5.0.1"
+		"react-scripts": "^4.0.3"
 	},
 	"scripts": {
 		"start": "react-scripts start",

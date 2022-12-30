@@ -1,23 +1,20 @@
 import { Routes, Route } from "react-router";
-import { Link } from "react-router-dom";
 
 // pages
+import Header from "./components/header.components";
 import Home from "./pages/home.pages";
 import About from "./pages/about.pages";
+import Login from "./pages/login.pages";
 
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<h1>A cucchiara de legno</h1>
-				<nav>
-					<Link to="/">Home</Link>
-					<Link to="/about">About</Link>
-				</nav>
-			</header>
+			<Header />
+
 			<Routes>
 				<Route index element={<Home />}></Route>
 				<Route path="/about" element={<About />}></Route>
+				<Route path="/login" element={<Login />}></Route>
 			</Routes>
 		</div>
 	);
